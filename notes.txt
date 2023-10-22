@@ -1,0 +1,5 @@
+this keyword functionality depends on where and how we are using. 
+if we are using this in a global scope then it will always point to the window
+if we are using this inside a function and that function is in global scope then it will always point to window
+if we have a created an object and if we use this inside a function which is inside the object that we created then this will point to the object that we created
+if we use this keyword inside constructor and methods of class then it will point to the object that we are creating for that respective class
